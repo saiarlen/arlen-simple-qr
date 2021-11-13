@@ -166,19 +166,3 @@ class AlmsAsqBootup
   }
 }
 
-// functions for support shortcode in template
-function asq_qrsimple($shortcode) {
-  $out = '';
-  
-  if (strpos(strtolower($shortcode), '[qrcode') === false) {
-    $out .= 'Please use the standard shortcode syntax. Ie: [qrsimple]my comes text[/qrsimple].';
-  } else {
-    $out .= do_shortcode($shortcode);
-  }
-  
-  echo $out;
-}
-
-function asq_demo_fc(){
-  echo "asq_qrsimple('[qrsimple] my-txt [/qrsimple]')";
-}

@@ -48,7 +48,7 @@
                 </tr>
                 <tr class="asq-table__row">
                     
-                    <td><code style="padding: 0;"><?php asq_demo_fc(); ?></code></td>
+                    <td><code style="padding: 0;"><?php echo esc_html( "<?php do_shortcode('[qrsimple] my-txt [/qrsimple]') ?>" ) ?></code></td>
                     <td>You can use anywhere in templates</td>
                 </tr>
             </tbody>
