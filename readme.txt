@@ -1,7 +1,7 @@
 === Simple QR ===
 Contributors: saiarlen
+Donate link: https://www.arlencode.com/
 Tags: Elementor, Page Builder, QR, qr generator, tools
-Donate link: https://www.arlencode.com
 Requires at least: 4.7
 Tested up to: 5.8
 Requires PHP: 5.6
@@ -16,9 +16,9 @@ It is a niche tool that is used to generate different types of QR Codes. Dependi
 
 Basic usage: Just use below shortcode
 
-```sh
-[qrsimple] My text here[/qrsimple]
-```
+
+`[qrsimple] My text here[/qrsimple]`
+
 
 **You can find more option in plugin page `tools->Simple QR` tab.**
 
